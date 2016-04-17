@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<title>Fall in Love </title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+		<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	</header>
+	<body>
+
+	<div id="fullpage">
+		<div class="section" id="page1" data-anchor="introduction">
+			<h1 class="title">Fall in Love</h1>
+			<p class="description">Grab a partner and answer some questions</p>
+		</div>
+		<div class="section" data-anchor="instruction">
+			<p class="instruct">Give each person two minutes to answer each of the following questions in order.</p>
+		</div>
+		<div class="section" data-anchor="question1">
+			<p class="question">1. Given the choice of anyone in the world, whom would you want as a dinner guest?</p>
+			<p class"timer"><span id="time">2:00</span></p>
+			<p id="startButton">Start</p>
+		</div>
+		<div class="section" data-anchor="question2">
+			<p class="question">2. Would you like to be famous? In what way?</p>
+			<p class"timer2"><span id="time">2:00</span></p>
+			<p id="startButton2">Start</p>
+		</div>
+		<div class="section" data-anchor="question3">
+			<p class="question">3. Before making a phone call, do you ever rehearse what you're going to say? Why?</p>
+			<p class"timer3"><span id="time">2:00</span></p>
+			<p id="startButton3">Start</p>
+		</div>
+		<div class="section" data-anchor="question4">
+			<p class="question4">4. What would constitute a perfect day for you?</p>
+			<p class"timer4"><span id="time">2:00</span></p>
+			<p id="startButton4">Start</p>
+		</div>
+		<div class="section" data-anchor="question5">
+			<p class="question">5. When did you last sing to yourself? To someone else?</p>
+			<p class"timer5"><span id="time">2:00</span></p>
+			<p id="startButto5">Start</p>
+		</div>
+		<div class="section" data-anchor="question6">
+			<p class="question">6. If you were able to live to the age of 90 and retain either the mind or body of a 30-year old for the last 60 years of your life, which would you choose?</p>
+			<p class"timer6"><span id="time">2:00</span></p>
+			<p id="startButton6">Start</p>
+		</div>
+		<div class="section" data-anchor="question7">
+			<p class="question">7. Do you have a secret hunch about how you will die?</p>
+			<p class"timer7"><span id="time">2:00</span></p>
+			<p id="startButton7">Start</p>
+		</div>
+		<div class="section" data-anchor="question8">
+			<p class="question">8. Name three things you and your partner appear to have in common.</p>
+			<p class"timer8"><span id="time">2:00</span></p>
+			<p id="startButton8">Start</p>
+		</div>
+		<div class="section" data-anchor="question9">
+			<p class="question">9. For what in your life do you feel most grateful?</p>
+			<p class"timer9"><span id="time">2:00</span></p>
+			<p id="startButton9">Start</p>
+		</div>
+		<div class="section" data-anchor="question10">
+			<p class="question">10. If you could change anything about the way you were raised, what would it be?</p>
+			<p class"timer10"><span id="time">2:00</span></p>
+			<p id="startButton10">Start</p>
+		</div>
+		<div class="section" data-anchor="question11">
+			<p class="question">11. Take four minutes and tell you partner your life story in as much detail as possible.</p>
+			<p class"timer11"><span id="time">2:00</span></p>
+			<p id="startButton11">Start</p>
+		</div>
+		<div class="section" data-anchor="question12">
+			<p class="question">12. If you could wake up tomorrow having gained one quality or ability, what would it be?</p>
+			<p class"timer12"><span id="time">2:00</span></p>
+			<p id="startButton12">Start</p>
+		</div>
+		<div class="section" data-anchor="question13">
+			<p class="question">13. If a crystal ball could tell you the truth about yourself, your life, the future or anything else, what would you want to know?</p>
+			<p class"timer13"><span id="time">2:00</span></p>
+			<p id="startButton13">Start</p>
+		</div>
+		<div class="section" data-anchor="question14">
+			<p class="question">14. Is there something that you've dreamt of doing for a long time? Why haven't you done it?</p>
+			<p class"timer14"><span id="time">2:00</span></p>
+			<p id="startButton14">Start</p>
+		</div>
+		<div class="section" data-anchor="question15">
+			<p class="question">15. What is the greatest accomplishment of your life?</p>
+			<p class"timer15"><span id="time">2:00</span></p>
+			<p id="startButton15">Start</p>
+		</div>
+		<div class="section" data-anchor="question16">
+			<p class="question">16. What do you value most in a friendship?</p>
+			<p class"timer16"><span id="time">2:00</span></p>
+			<p id="startButton16">Start</p>
+		</div>
+		<div class="section" data-anchor="question17">
+			<p class="question">17. What is your most treasured memory?</p>
+			<p class"timer17"><span id="time">2:00</span></p>
+			<p id="startButton17">Start</p>
+		</div>
+		<div class="section" data-anchor="question18">
+			<p class="question">18. What is your most terrible memory?</p>
+			<p class"timer18"><span id="time">2:00</span></p>
+			<p id="startButton18">Start</p>
+		</div>
+		<div class="section" data-anchor="question19">
+			<p class="question">19. If you knew that in one year you would die suddenly, would you change anything about the way you are now living? Why?</p>
+			<p class"timer19"><span id="time">2:00</span></p>
+			<p id="startButton19">Start</p>
+		</div>
+		<div class="section" data-anchor="question20">
+			<p class="question">20. What does friendship mean to you?</p>
+			<p class"timer20"><span id="time">2:00</span></p>
+			<p id="startButton20">Start</p>
+		</div>
+		<div class="section" data-anchor="question21">
+			<p class="question">21. What roles do love and affection play in your life?</p>
+			<p class"timer21"><span id="time">2:00</span></p>
+			<p id="startButton21">Start</p>
+		</div>
+		<div class="section" data-anchor="question22">
+			<p class="question">22. Alternate sharing something you consider a positive characteristic of your partner. Share a total of five items.</p>
+			<p class"timer22"><span id="time">2:00</span></p>
+			<p id="startButton22">Start</p>
+		</div>
+		<div class="section" data-anchor="question23">
+			<p class="question">23. How close and warm is your family? Do you feel your childhood was happier than most other people's?</p>
+			<p class"timer23"><span id="time">2:00</span></p>
+			<p id="startButton23">Start</p>
+		</div>
+		<div class="section" data-anchor="question24">
+			<p class="question">24. How do you feel about your relationship with your mother?</p>
+			<p class"timer24"><span id="time">2:00</span></p>
+			<p id="startButton24">Start</p>
+		</div>
+		<div class="section" data-anchor="question25">
+			<p class="question">25. Make three true "we" statements each. For instance, "we are both in this room feeling..."</p>
+			<p class"timer25"><span id="time">2:00</span></p>
+			<p id="startButton25">Start</p>
+		</div>
+		<div class="section" data-anchor="question26">
+			<p class="question">26. Complete this sentence "I wish I had someone with whom I could share..."</p>
+			<p class"timer26"><span id="time">2:00</span></p>
+			<p id="startButton26">Start</p>
+		</div>
+		<div class="section" data-anchor="question27">
+			<p class="question">27. If you were going to become a close friend with your partner, please share what would be important for him or her to know.</p>
+			<p class"timer27"><span id="time">2:00</span></p>
+			<p id="startButton27">Start</p>
+		</div>
+		<div class="section" data-anchor="question28">
+			<p class="question">28. Tell your partner what you like about them: be honest this time, saying things that you might not say to someone you've just met.</p>
+			<p class"timer28"><span id="time">2:00</span></p>
+			<p id="startButton28">Start</p>
+		</div>
+		<div class="section" data-anchor="question29">
+			<p class="question">29. Share with your partner an embarrassing moment in your life.</p>
+			<p class"timer29"><span id="time">2:00</span></p>
+			<p id="startButton29">Start</p>
+		</div>
+		<div class="section" data-anchor="question30">
+			<p class="question">30. When did you last cry in front of another person? By yourself?</p>
+			<p class"timer30"><span id="time">2:00</span></p>
+			<p id="startButton30">Start</p>
+		</div>
+		<div class="section" data-anchor="question31">
+			<p class="question">31. Tell your partner something that you like about them already.</p>
+			<p class"timer31"><span id="time">2:00</span></p>
+			<p id="startButton31">Start</p>
+		</div>
+		<div class="section" data-anchor="question32">
+			<p class="question">32. What, if anything, is too serious to be joked about?</p>
+			<p class"timer32"><span id="time">2:00</span></p>
+			<p id="startButton32">Start</p>
+		</div>
+		<div class="section" data-anchor="question33">
+			<p class="question">33. If you were to die this evening with no opportunity to communicate with anyone, what would you most regret not having told someone? Why haven't you told them yet?</p>
+			<p class"timer33"><span id="time">2:00</span></p>
+			<p id="startButton3">Start</p>
+		</div>
+		<div class="section" data-anchor="question34">
+			<p class="question">34. Your house, containing everything you own, catches fire. After saving your loved ones and pets, you have time to safely make a final dash to save any one item. What would it be? Why?</p>
+			<p class"timer34"><span id="time">2:00</span></p>
+			<p id="startButton34">Start</p>
+		</div>
+		<div class="section" data-anchor="question35">
+			<p class="question">35. Of all the people in your family, whose death would you find most disturbing? Why?</p>
+			<p class"timer35"><span id="time">2:00</span></p>
+			<p id="startButton35">Start</p>
+		</div>
+		<div class="section" data-anchor="question36">
+			<p class="question">36. Share a personal problem and ask your partner's advice on how he or she might handle it. Also, ask your partner to reflect back to you how you seem to be feeling about the problem you have chosen.</p>
+			<p class"timer36"><span id="time">2:00</span></p>
+			<p id="startButton36">Start</p>
+		</div>
+		<div class="section" data-anchor="information" id="information">
+			<p>Website created by Mark Jin</p>
+			<p><a href="mailto:r8jin@uwaterloo.ca">E-mail</a></p>
+            <p><a href="https://ca.linkedin.com/in/renyemarkjin">LinkedIn</a></p>
+            <p><a href="https://github.com/markjin123">GitHub</a></p>
+		</div>
+	</div>
+	<div id="FBshare">
+		<iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2F36questions.xyz&layout=button&mobile_iframe=true&width=58&height=20&appId" width="58" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+	</div>
+	<div id="twitter">
+
+	<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://36questions.xyz" data-text="36 Questions">Tweet</a>
+</div>
+	<footer>All Right Reserved</footer>
+	</body>
+
+</html>
+
+
+
+

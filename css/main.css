@@ -1,0 +1,93 @@
+footer{
+	position:fixed;
+	text-align:center;
+	bottom:0px;
+	width:100%;
+}
+
+body{
+	
+}
+
+h3.description{
+	padding-top: 10%;
+	padding-bottom: 5%;
+	margin-left: auto;
+    margin-right: auto;
+    width: 26.1em
+
+}
+
+h1.intro{
+	margin-left: auto;
+    margin-right: auto;
+    width: 9em
+}
+
+.section {
+  text-align:center;
+  font-size: 3em;
+}	
+
+.question{
+	text-align: center;
+	font-size:1em;
+	margin-right:40px;
+	margin-left:40px;
+}
+
+.fp-slidesNav.bottom{
+	bottom: 25px;
+}
+
+.controlArrow.prev {
+	left: 50px;
+}
+
+.controlArrow.next{
+	right: 50px;
+}
+
+.instruct{
+	margin-right:40px;
+	margin-left:40px;
+}
+
+#FBshare{
+	position:fixed;
+	align-items:right;
+	bottom:0px;;
+}
+
+#twitter{
+	position:fixed;
+	align-items:right;
+	bottom:25px;
+}
+/*
+#page1{
+	background: -webkit-gradient(linear, top left, bottom left, from(#4bbfc3), to(#7baabe));
+	background: -webkit-linear-gradient(#4BBFC3, #7BAABE);
+	background: linear-gradient(#4BBFC3,#7BAABE);
+}
+
+
+#page2{
+	background: -webkit-gradient(linear, top left, bottom left, from(#008080), to(#009999));
+	background: -webkit-linear-gradient(#008080,#009999 );
+	background: linear-gradient(#008080,#009999);
+}
+
+#page3{
+	background: -webkit-gradient(linear, top left, bottom left, from(#006666), to(#008080));
+	background: -webkit-linear-gradient(#006666,#008080 );
+	background: linear-gradient(#006666,#008080);
+}
+
+#page4{
+	background: -webkit-gradient(linear, top left, bottom left, from(#006666), to(#008080));
+	background: -webkit-linear-gradient(#006666,#008080 );
+	background: linear-gradient(#006666,#008080);
+}
+*/
+
